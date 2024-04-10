@@ -1,0 +1,28 @@
+.nav1{
+  cursor: pointer;
+}
+
+.nav1 div p:hover{
+color: blue;
+}
+
+.container {
+  position: relative;
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  /* Hide the part of the image outside the circle */
+}
+
+.container img {
+  padding: 25px;
+  position: absolute;
+  bottom: -35%; /* Position the image half inside and half below the container */
+  left: 7%; /* Center the image horizontally */
+  transform: translateX(-50%);
+  border-radius: 50%; /* Apply circular mask to the image */
+  width: 150px; /* Adjust width of the circular image */
+  height: 150px; /* Adjust height of the circular image */
+  background-color: white;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire circle */
+  border: 2px solid white; /* Optional: Add border for better visibility */
+}
