@@ -77,8 +77,9 @@ const MainBody = () => {
               <FaEnvelope color='blue' size={16}/>
             </div>
           </div>
-          <div className='max-md:flex-col max-md:gap-4 flex bg-[#F7F5F0] items-center max-md:px-2 px-4 py-10 rounded-lg'>
-            <a href="">https://www.paypal.com/US/fundraiser
+          <div className='text-wrap max-lg:flex-col max-md:gap-4 flex bg-[#F7F5F0] px-2 items-center py-10 rounded-lg'>
+            <a href="">https://www.paypal.com/US
+            /fundraiser
             /charity/1279469</a>
             <button className='border-2 border-separate border-blue-700 bg-white rounded-3xl p-1 px-3'>Copy</button>
           </div>
