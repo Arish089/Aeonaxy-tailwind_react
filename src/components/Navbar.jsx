@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
     
-    <div className='flex justify-evenly px-16 max-md:hidden'>
+    <div className='flex justify-between p-8 max-md:hidden'>
         <div className='nav1 flex justify-between items-center gap-10 font-semibold '>
             <div>
                 <FaPaypal color='blue' size={24}/>
@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <FaBars onClick={()=>setShow(!show)}/>
       {show &&
-      <div className='flex  justify-between p-2 bg-[#F7F5F0]'>
+      <div className='flex  justify-between p-6 bg-[#F7F5F0]'>
         <div className='nav1 flex flex-col justify-between items-center gap-10 font-semibold '>
             <div>
                 <FaPaypal color='blue' size={24}/>
